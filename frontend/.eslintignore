@@ -1,0 +1,17 @@
+ 
+node_modules
+build
+
+**/*.md
+package.json
+**/*.json
+**/*.css
+**/*.svg
+**/*.png
+**/*.hbs
+**/*.jpg
+**/*svg.js
+**/lib/*
+test-app
+.gitignore
+yarn-lock
