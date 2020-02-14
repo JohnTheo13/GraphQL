@@ -1,3 +1,11 @@
 endpoint: http://localhost:4466
 datamodel: datamodel.graphql
 databaseType: document
+
+generate:
+  - generator: graphql-schema
+    output: ./src/generated/prisma.graphql
+
+hooks:
+  post-deploy:
+    - prisma generate

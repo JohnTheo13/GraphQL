@@ -1,8 +1,19 @@
 {
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+	"javascript.validate.enable": false,
+  "typescript.suggest.autoImports": false,
+  "workbench.editor.labelFormat": "short",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact"
+  ],
   "workbench.colorCustomizations": {
     "titleBar.activeForeground": "#000",
     "titleBar.inactiveForeground": "#000000CC",
     "titleBar.activeBackground": "#FFC600",
     "titleBar.inactiveBackground": "#FFC600CC"
-  }
+  },
+  "eslint.enable": true
 }

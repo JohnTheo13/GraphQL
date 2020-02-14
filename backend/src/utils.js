@@ -12,6 +12,7 @@ function hasPermission(user, permissionsNeeded) {
       ${user.permissions}
       `);
   }
+  return true;
 }
 
 exports.hasPermission = hasPermission;
